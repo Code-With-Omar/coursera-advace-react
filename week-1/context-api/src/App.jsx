@@ -6,7 +6,8 @@ function App() {
 
   return (
     <>
-      <Components1 />
+      {/* <Components1 /> */}
+      {/* Exercise: Create a light-dark theme switcher */}
     </>
   )
 }

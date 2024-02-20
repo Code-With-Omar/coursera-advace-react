@@ -7,11 +7,11 @@ const Components1 = () => {
         id: 190605,
         name: "Omarfaruk"
     })
-    const [userData,setUserData]=useState({
-        text:"Hello I am omar"
+    const [userData, setUserData] = useState({
+        text: "Hello I am omar"
     })
     return (
-        <UserContext.Provider value={{user,userData}}>
+        <UserContext.Provider value={{ user, userData }}>
             <p>this is parent components</p>
             <Components2 />
         </UserContext.Provider>
