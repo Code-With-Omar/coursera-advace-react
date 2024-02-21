@@ -5,6 +5,7 @@ import ComplexWithUseState1 from './components/StartsWithHook/ComplexWithUseStat
 import LemonResturent from './components/StartsWithHook/LemonResturent'
 import UseState from './components/StartsWithHook/UseState'
 import UseEffect from './components/UseEffect/UseEffect'
+import UseEffect1 from './components/UseEffect/UseEffect1'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <ComplexWithUseState1 />
       <LemonResturent></LemonResturent>
       <UseEffect />
+      <UseEffect1/>
     </>
   )
 }
